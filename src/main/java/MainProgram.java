@@ -3,7 +3,7 @@ public class MainProgram {
 
 
         Person person=new Person("Ryan", 30, "female", new String[]{
-                "Hardarse", "agile", "ssd hard drives", "Games"
+                "Hardarse", "agile", "ssd hard drives"
         });
 
         System.out.println(person.Hello());
