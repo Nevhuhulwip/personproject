@@ -10,7 +10,14 @@ public class PersonTest {
         Assert.assertEquals(person.Hello(),"Hello, My name is Ryan and I am 30 years old." +
                 " My interests are being a hardarse, agile and ssd hard drives.");
 
+        Assert.assertEquals(person.getName(),"Ryan");
+        Assert.assertEquals(person.getage(), 30);
+        Assert.assertEquals(person.getGender(), "male");
+        Assert.assertArrayEquals(person.getInterests(),new String []{ "hardarse", "agile", "ssd hard drives"});
+
     }
+
+
 
 }
 

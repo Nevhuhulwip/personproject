@@ -8,6 +8,19 @@ public class Person {
     private String gender;
     String[] interests;
 
+    public String getGender() {
+        return gender;
+    }
+
+    public int getage() {
+        return age;
+    }
+
+    public String[] getInterests() {
+        return interests;
+    }
+
+
     public Person(String name, int age, String gender, String[] interests) {
         this.name = name;
         this.age = age;
@@ -24,13 +37,14 @@ public class Person {
 
     public String Hello() {
         int len = interests.length - 1;
-        String lastText = interests[len].toString();
+        String lastText = interests[len];
 
 
         ArrayList last = new ArrayList();
 
         for(int i=0; i< interests.length - 1; i++){
             last.add(interests[i]);
+            System.out.println(interests[i]);
         }
 
         String text = last.toString();

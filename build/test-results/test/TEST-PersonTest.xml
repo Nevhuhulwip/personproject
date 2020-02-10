@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PersonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T07:38:16" hostname="admin1-ThinkCentre-M72e" time="0.003">
+<testsuite name="PersonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T12:47:18" hostname="admin1-ThinkCentre-M72e" time="0.007">
   <properties/>
-  <testcase name="testEmptyName" classname="PersonTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testEmptyName" classname="PersonTest" time="0.007"/>
+  <system-out><![CDATA[hardarse
+agile
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
